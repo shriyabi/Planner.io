@@ -1,0 +1,16 @@
+<div>
+      <Planner 
+        img={floral}
+        time="pink"
+        primaryColor="-stone-600"
+        secondaryColor="-amber-50"
+        ternaryColor="rose-500"
+        quadaryColor="rose-200"
+        sixColor="rose-400"
+        className="rose-600"
+        career="stone-400"
+        life="stone-500"
+        routine="stone-700"
+      />
+  </div>
+
