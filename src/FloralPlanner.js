@@ -128,7 +128,7 @@ function Floral() {
                               ? 'text-rose-500'
                               : taskItem.cat === 'Ca'
                               ? 'text-stone-400'
-                              : taskItem.cat == "L"
+                              : taskItem.cat === "L"
                               ? 'text-stone-500'
                               : 'text-stone-700'
                           } ${taskItem.completed ? 'line-through text-gray-200' : ''}`}
@@ -179,7 +179,7 @@ function Floral() {
                               ? 'text-rose-500'
                               : taskItem.cat === 'Ca'
                               ? 'text-stone-400'
-                              : taskItem.cat == "L"
+                              : taskItem.cat === "L"
                               ? 'text-stone-500'
                               : 'text-stone-700'
                           } ${taskItem.completed ? 'line-through text-gray-200' : ''}`}

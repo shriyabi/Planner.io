@@ -128,7 +128,7 @@ function Leaves() {
                               ? 'text-lime-500'
                               : taskItem.cat === 'Ca'
                               ? 'text-green-500'
-                              : taskItem.cat == "L"
+                              : taskItem.cat === "L"
                               ? 'text-green-600'
                               : 'text-green-700'
                           } ${taskItem.completed ? 'line-through text-gray-200' : ''}`}
@@ -179,7 +179,7 @@ function Leaves() {
                               ? 'text-lime-600'
                               : taskItem.cat === 'Ca'
                               ? 'text-green-600'
-                              : taskItem.cat == "L"
+                              : taskItem.cat === "L"
                               ? 'text-green-700'
                               : 'text-green-800'
                           } ${taskItem.completed ? 'line-through text-gray-200' : ''}`}

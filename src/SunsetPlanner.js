@@ -128,7 +128,7 @@ function Sunset() {
                               ? 'text-cyan-600'
                               : taskItem.cat === 'Ca'
                               ? 'text-amber-500'
-                              : taskItem.cat == "L"
+                              : taskItem.cat === "L"
                               ? 'text-orange-600'
                               : 'text-red-700'
                           } ${taskItem.completed ? 'line-through text-gray-200' : ''}`}
@@ -179,7 +179,7 @@ function Sunset() {
                               ? 'text-red-600'
                               : taskItem.cat === 'Ca'
                               ? 'text-stone-400'
-                              : taskItem.cat == "L"
+                              : taskItem.cat === "L"
                               ? 'text-stone-500'
                               : 'text-stone-700'
                           } ${taskItem.completed ? 'line-through text-gray-200' : ''}`}

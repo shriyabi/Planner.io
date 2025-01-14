@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "homepage": "https://shriyabi.github.io/Planner.io"
+  "homepage": "https://shriyabi.github.io/Planner.io",
   "private": true,
   "dependencies": {
     "animate": "^1.0.0",
