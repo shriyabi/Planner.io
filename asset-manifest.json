@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/Planner.io/static/css/main.dd84e511.css",
-    "main.js": "/Planner.io/static/js/main.349520b3.js",
-    "static/media/leaveopaque.png": "/Planner.io/static/media/leaveopaque.e65470f2809d726f4ead.png",
-    "static/media/floralopaque3.png": "/Planner.io/static/media/floralopaque3.87a4b38cc35d41b0e68a.png",
-    "static/media/sunsetopaque.png": "/Planner.io/static/media/sunsetopaque.ce8ef9207a5380a48702.png",
+    "main.css": "/Planner.io/static/css/main.aad55051.css",
+    "main.js": "/Planner.io/static/js/main.1ee25202.js",
     "index.html": "/Planner.io/index.html",
-    "main.dd84e511.css.map": "/Planner.io/static/css/main.dd84e511.css.map",
-    "main.349520b3.js.map": "/Planner.io/static/js/main.349520b3.js.map"
+    "main.aad55051.css.map": "/Planner.io/static/css/main.aad55051.css.map",
+    "main.1ee25202.js.map": "/Planner.io/static/js/main.1ee25202.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd84e511.css",
-    "static/js/main.349520b3.js"
+    "static/css/main.aad55051.css",
+    "static/js/main.1ee25202.js"
   ]
 }
