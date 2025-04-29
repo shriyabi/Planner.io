@@ -393,7 +393,7 @@ function App() {
           onChange={handleInputChange}
           onBlur={handleInputBlur}
           placeholder="00:00"
-          className="text-5xl font-mono text-center border border-gray-400 rounded px-2 py-1"
+          className="text-5xl w-4/5 font-mono text-center rounded px-2 py-1"
         />
       ) : (
         <div
@@ -428,7 +428,7 @@ function App() {
 
 
       {isAddTaskOpen && (
-        <div className="fixed top-0 left-0 w-full h-full bg-gray-800 bg-opacity-50 flex justify-center items-center">
+        <div className="fixed top-0 left-0 w-1/3 h-full bg-gray-800 bg-opacity-50 flex justify-center items-center">
           <div className="bg-white rounded-md p-6">
             <h2 className="text-lg font-semibold mb-4">Add New Task</h2>
             <form onSubmit={handleAddTaskSubmit} className="flex flex-col space-y-2">
@@ -590,7 +590,7 @@ function App() {
             )
           ))
         ) : (
-          <p className="text-center" style={{display: 'none'}}>No tasks available.</p>
+          <p className="text-center font-red-400" style={{display: 'none'}}> Congrats! You have completed your tasks! Go watch Bernese mountain dogs!</p>
         )}
       </div>
 
