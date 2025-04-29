@@ -4,9 +4,11 @@
   "homepage": "https://shriyabi.github.io/Planner.io",
   "private": true,
   "dependencies": {
+    "@react-oauth/google": "^0.12.1",
     "animate": "^1.0.0",
     "animate.css": "^4.1.1",
     "cra-template": "1.2.0",
+    "gapi-script": "^1.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-scripts": "5.0.1"
