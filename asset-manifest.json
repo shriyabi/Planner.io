@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Planner.io/static/css/main.7bf55a2a.css",
-    "main.js": "/Planner.io/static/js/main.8196cf44.js",
+    "main.js": "/Planner.io/static/js/main.e2b688c5.js",
     "index.html": "/Planner.io/index.html",
     "main.7bf55a2a.css.map": "/Planner.io/static/css/main.7bf55a2a.css.map",
-    "main.8196cf44.js.map": "/Planner.io/static/js/main.8196cf44.js.map"
+    "main.e2b688c5.js.map": "/Planner.io/static/js/main.e2b688c5.js.map"
   },
   "entrypoints": [
     "static/css/main.7bf55a2a.css",
-    "static/js/main.8196cf44.js"
+    "static/js/main.e2b688c5.js"
   ]
 }
