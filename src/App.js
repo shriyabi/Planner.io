@@ -428,7 +428,7 @@ function App() {
 
 
       {isAddTaskOpen && (
-        <div className="fixed top-0 left-0 w-1/3 h-full bg-gray-800 bg-opacity-50 flex justify-center items-center">
+        <div className="fixed top-0 left-0 w-full h-full bg-gray-800 bg-opacity-50 flex justify-center items-center">
           <div className="bg-white rounded-md p-6">
             <h2 className="text-lg font-semibold mb-4">Add New Task</h2>
             <form onSubmit={handleAddTaskSubmit} className="flex flex-col space-y-2">
