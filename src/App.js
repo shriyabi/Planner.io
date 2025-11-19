@@ -335,7 +335,7 @@ function App() {
   };
 
   return (
-    <div className="flex px-5 flex-col relative w-screen h-screen items-center overflow-hidden justify-top dark:bg-neutral-900">
+    <div className="flex px-5 flex-col relative w-screen h-screen items-center overflow-y-scroll overflow-x-hidden bg-white justify-top dark:bg-neutral-900">
       <div className="App flex flex-col items-center mt-4 space-y-4">
         {!isSignedIn ? (
           <div className='flex flex-col w-screen h-screen items-center justify-center'>
