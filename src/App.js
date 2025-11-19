@@ -26,10 +26,10 @@ function App() {
   const [isEditing, setIsEditing] = useState(true);
 
 
-  const toggleMenu = () => {
-    setIsMenuOpen((prevState) => !prevState);
-    setOpen(false);
-  };
+  // const toggleMenu = () => {
+  //   setIsMenuOpen((prevState) => !prevState);
+  //   setOpen(false);
+  // };
 
   const openAddTask = () => {
     setIsAddTaskOpen(true);
@@ -366,12 +366,12 @@ function App() {
         )}
       </div>
 
-      <button
+      {/* <button
         onClick={toggleMenu}
         className="rounded absolute text-stone-400 pb-1 bg-stone-50 hover:text-red-600 flex text-center px-1 text-5xl right-0 top-0 mt-2 mr-2"
       >
         &#x2699;
-      </button>
+      </button> */}
 
       <div className="relative bottom-1 right-1 mt-4">
         {isSignedIn && (
@@ -385,7 +385,7 @@ function App() {
         )}
       </div>
 
-      <div className="flex flex-col items-center bg-green-100 mt-10 space-y-2 p-4 bg-gray-100 rounded-md shadow-md w-1/4">
+      <div className="flex flex-col items-center bg-green-100 mt-10 space-y-2 p-4 bg-gray-100 rounded-md shadow-md w-4/5 md:w-1/4">
       {isEditing ? (
         <input
           type="text"
@@ -429,7 +429,7 @@ function App() {
 
       {isAddTaskOpen && (
         <div className="fixed top-0 left-0 w-full h-full bg-gray-800 bg-opacity-50 flex justify-center items-center">
-          <div className="bg-white rounded-md p-6">
+          <div className="bg-white w-4/5 md:w-1/3 rounded-md p-6">
             <h2 className="text-lg font-semibold mb-4">Add New Task</h2>
             <form onSubmit={handleAddTaskSubmit} className="flex flex-col space-y-2">
               <label htmlFor="newTaskTitle" className="block text-gray-700 text-sm font-bold mb-1">
